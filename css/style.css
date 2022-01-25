@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Merriweather&display=swap');
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.title{
+    font-family: Merriweather;
+    color: #BDAE82;
+    padding-top: 100px;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+}
+.title::before,
+.title::after{
+    content: "";
+    width: 23%;
+    height: 2px;
+    background-color:#BDAE82;
+    position: absolute;
+    top: 83%;
+}
+.title::before{
+    left: 18%;
+}
+.title::after{
+    right: 18%;
+}
+.section{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo{
+    margin-left:  30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0,1s;
+
+}
+.logo:hover{
+    filter: invert(26%) sepia(15%) saturate(638%)hue-rotate(7deg) brightness(92%)contrast(87%);
+}
+.div__logo{
+
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    color: #FFFFFF;
+    font-family: inter;
+    margin: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu a{
+    text-decoration: none;
+}
+.link {
+    margin-right: 30px;
+    margin-left: 0px;
+    color: #FFFFFF;
+}
+.link:hover{
+    color: #BDAE82;
+}
+.link__len {
+    margin-right: 10px;
+    margin-right: 10px;
+    color: #FFFFFF;
+    font-family: inter;    
+}
+.link__len:hover{
+    color: #BDAE82;
+}
+
+
+
+
+
+
+.bio{
+    color: white;
+    margin-top: 200px;
+    margin-left: 70px;
+    width: 30%;
+}
+.name{
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 120px;
+}
+.info{
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 40px;
+}
+.btn1{
+    margin-top: 20px;
+    width: 160px;
+    height: 55px;
+    background-color:#BDAE82;
+    color: black;
+}
+.btn1:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    text-align: center;
+    margin: 50px auto;
+}
+.h31{
+    margin: 50px auto;
+    color: white;
+}
+.p1{
+    margin: 50px auto;
+    color: white;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    width: 250px;
+}
+
+
+
+
+.divP1{
+    text-align: center;
+    margin: 70px auto 0;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.btnP1{
+    color: #BDAE82;
+    background-color: black;
+    flex: 0 1 24%;
+    padding: 10px 15px;
+    border: 2px solid #BDAE82;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+.btnP1:hover{
+    background-color: #BDAE82;
+    color: black;
+}
+.divP2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 0 1 30%;
+    padding: 0 10px;
+    margin-top: 40px;
+}
+.divP2 img{
+    width: 400px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.divVideo{
+    margin-top: 70px;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.videoImage{
+    background-size: contain;
+    background-image: url('./images/Play_hover.svg');
+    background-repeat: no-repeat;
+    transition: 0,1s;
+}
+.videoImage:hover{
+    filter: invert(26%) sepia(15%) saturate(638%)hue-rotate(7deg) brightness(92%)contrast(87%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.divPrice{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 0 1 30%;
+    padding: 0 10px;
+    margin-top: 100px;
+    padding-bottom: 70px;
+}
+.price1{
+
+    width: 29%;
+    border: 2px solid #BDAE82;
+    box-sizing: border-box;
+    border-radius: 0px;
+
+}
+.priceH3{
+    color: white;
+    margin-top: 30px;
+    font-family: Merriweather;
+    font-size: 28px;
+    line-height: 56px;
+    text-align: center;
+}
+.priceH4{
+    margin-top: 30px;
+    font-family: Merriweather;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    color: #BDAE82;
+}
+.priceP{
+    margin-top: 50px;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.prcbtn{
+    color: black;
+    background-color: #BDAE82;
+    flex: 0 1 24%;
+    padding: 10px 15px;
+    border: 2px solid #BDAE82;
+    box-sizing: border-box;
+    border-radius: 0px;
+    margin-left: 33%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.prcbtn:hover{
+    background-color: black;
+    color: #BDAE82;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.divCont{
+    width: 100%;
+    height: 700px;
+}
+.contH2{
+    margin-left: 70%;
+    padding-top: 60px;
+    color: #BDAE82;
+    font-family: Merriweather;
+    font-size: 40px;
+}
+.mail{
+    color: #BDAE82;
+    margin-left: 70%;
+    width: 370px;
+    height: 40px;
+    margin-top: 50px;
+    background-color: transparent;
+    border: 2px solid #BDAE82;
+    padding-left: 10px;
+}
+.phone{
+    color: #BDAE82;
+    margin-left: 70%;
+    width: 370px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 2px solid #BDAE82;
+    padding-left: 10px;
+
+}
+.message{
+    background-color: transparent;
+    color: #BDAE82;
+    margin-left: 70%;
+    width: 370px;
+    height: 80px;
+    margin-top: 30px;
+    border: 2px solid #BDAE82;
+    padding-left: 10px;
+    padding-bottom: 40px;
+
+}
+.conbtn{
+    color: black;
+    background-color: #BDAE82;
+    flex: 0 1 24%;
+    padding: 10px 15px;
+    border: 2px solid #BDAE82;
+    box-sizing: border-box;
+    width: 200px;
+    border-radius: 0px;
+    margin-left: 70%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.conbtn:hover{
+    background-color: transparent;
+    color: #BDAE82;
+}
+.mail::placeholder {
+    color: #BDAE82
+}
+.phone::placeholder{
+    color: #BDAE82;
+}
+.message::placeholder{
+    color: #BDAE82;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+.divF1{
+    color: white;
+    display: flex;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.pf{
+    padding-top: 25%;
+    margin-left: 20px;
+}
+.imgF{
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0,1s;
+    margin-right: 20px;
+    padding-top: 27px;
+}
+.imgF:hover{
+    filter: invert(26%) sepia(15%) saturate(638%)hue-rotate(7deg) brightness(92%)contrast(87%);
+
+}
+
+
+
+
+
+
